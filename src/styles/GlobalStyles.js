@@ -3,7 +3,7 @@ import { createGlobalStyle } from "styled-components";
 export default createGlobalStyle `
     :root {
         --black: #000000;
-        --fondo: #ededed;
+        --border: #ededed;
         --white: #ffffff;
 
         --text1: rgba(0,0,0,.8);
@@ -13,7 +13,7 @@ export default createGlobalStyle `
         --green: #00a650;
         --blue1: #1e6dff;
         --blue2: #29698c8;
-        --blue2: #3483fa;
+        --blue3: #3483fa;
         --yellow: #fff159;
 
         --border: #dddddd;
@@ -40,7 +40,7 @@ export default createGlobalStyle `
     }
     html {
         min-height: 100%;
-        background-color: var(--fondo);
+        background-color: var(fo);
     }
 
     *, button, input {

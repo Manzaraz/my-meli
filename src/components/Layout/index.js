@@ -9,8 +9,8 @@ export const Layout = () => {
         <Container>
             <Header />
             <Wrapper>
-                <Product />
                 <Hero />
+                <Product />
             </Wrapper>
         </Container>
 
