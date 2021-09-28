@@ -1,4 +1,4 @@
-import { Caja, Card, Container, Link, LocationIcon, PlatinumIcon, Reputation, Row, Title } from "./styles";
+import { Caja, Card, CheckIcon, ClockIcon, Container, Link, LocationIcon, PlatinumIcon, Reputation, Row, SupportIcon, Title } from "./styles";
 
 
 
@@ -27,6 +27,7 @@ export const InfoSeller = () => {
                     <li/>
                     <li/>
                     <li/>
+                    <li/>
                     <li className="active" />
                 </Caja>
             </Reputation>
@@ -36,11 +37,13 @@ export const InfoSeller = () => {
                     <span>Ventas en los últimos 60 días</span>
                 </div>
                 <div>
-                    <strong>💬</strong>
+                    <SupportIcon/>
+                    <CheckIcon/>
                     <span>Brinda buena atención</span>
                 </div>
                 <div>
-                    <strong>⏱</strong>
+                    <ClockIcon/>
+                    <CheckIcon/>
                     <span>Despacha sus productos a tiempo</span>
                 </div>
             </Row>

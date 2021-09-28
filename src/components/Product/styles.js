@@ -10,7 +10,7 @@ export const Panel = styled.div`
     background-color: var(--white);
     box-shadow: var(--panel);
     display: grid;
-    grid-template-columns: 67fr 22fr;
+    grid-template-columns: 67fr 28fr;
     
     `;
 export const Column = styled.div`
@@ -52,7 +52,7 @@ export const Description = styled.div`
 
 export const Section = styled.section`
     padding: 32px 16px ;
-    margin: 0 auto;
+    margin: 0 16px;
     border:  1px solid var(--border);
     border-bottom: none;
     >h5 {
