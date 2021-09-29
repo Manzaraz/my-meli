@@ -125,7 +125,7 @@ export const MainActions = styled.div`
         flex-direction: column;
         align-self: center;
         width: 100%;
-        >input{
+        >.action-btn{
             height: 48px;
             margin-top: 10px;
             border-radius: 6px;
@@ -134,8 +134,12 @@ export const MainActions = styled.div`
             color: var(--blue1);
             cursor: pointer ;
             font-weight: bold;
+            transition: all .4s  ease-in-out;
+            &.action-btn:hover{
+                opacity: .8;
+            }
         }
-        >.buy-btn{
+        >.buy{
             color: var(--white);
             background-color: var(--blue3);
         }
@@ -190,8 +194,14 @@ export const StarIcon = styled(IoStar)`
     color: var(--blue1);
 `;
 export const Link = styled.a`
-    color: var(--blue1);
+    color: var(--blue3);
     text-decoration: none;
     font-size: 14px;
     text-align: center;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+
+    &:hover{
+        color: var(--blue1);
+    }
 `;

@@ -89,3 +89,15 @@ export const Section = styled.section`
     }
 
 `;
+export const Link = styled.a`
+    color: var(--blue3);
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+
+    &:hover{
+        color: var(--blue1);
+    }
+`;

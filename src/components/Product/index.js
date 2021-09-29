@@ -1,4 +1,4 @@
-import { Column, Container, Description, Galery, Panel, Section } from './styles';
+import { Column, Container, Description, Galery, Link, Panel, Section } from './styles';
 import productPicture from "../../assets/AppleMacbookAir.jpg";
 import { InfoSeller } from '../InfoSeller';
 import { ProductSeller } from '../ProductSeller';
@@ -87,9 +87,9 @@ const Warranty = () => {
                         Garantía del vendedor: 6 meses
                     </p>
                 </span>
-                <a href="https://articulo.mercadolibre.com.ar/noindex/warranty/MLA927828536?new_version=true&modal=false&newIndex=true" >
+                <Link href="https://articulo.mercadolibre.com.ar/noindex/warranty/MLA927828536?new_version=true&modal=false&newIndex=true" >
                     Conocer más sobre garantía
-                </a>
+                </Link>
             </article>
 
 

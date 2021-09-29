@@ -56,8 +56,8 @@ export const ProductSeller = () => {
             </BuyBox>
             <MainActions>
                 <form   method="get">
-                    <input className="buy-btn" type="submit" value="Comprar ahora" />
-                    <input className="add-btn" type="submit" value="Agregar al carrito" />
+                    <input className="action-btn buy" type="submit" value="Comprar ahora" />
+                    <input className="action-btn add" type="submit" value="Agregar al carrito" />
                 </form>
                 <article>
                     <figure>

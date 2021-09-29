@@ -154,9 +154,14 @@ export const ClockIcon = styled(MdTimer)`
 `;
 export const Link = styled.a`
     margin-top: 24px;
-    color: var(--blue1);
+    color: var(--blue3);
     text-decoration: none;
     font-size: 14px;
     text-align: center;
     line-height: 18.9px;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+    &:hover{
+        color: var(--blue1);
+    }
 `;
