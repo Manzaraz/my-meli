@@ -1,6 +1,7 @@
 import { Column, Container, Description, Galery, Panel, Section } from './styles';
 import productPicture from "../../assets/AppleMacbookAir.jpg";
 import { InfoSeller } from '../InfoSeller';
+import { ProductSeller } from '../ProductSeller';
 
 export const Product = () => {
     return (
@@ -13,9 +14,8 @@ export const Product = () => {
                     <Info />
                 </Column>
                 <Column>
-                    {/* 
+
                     <ProductSeller />
-                    */}
                     <InfoSeller />
                     <Warranty /> 
                 </Column>

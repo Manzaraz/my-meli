@@ -52,9 +52,12 @@ export const Description = styled.div`
 
 export const Section = styled.section`
     padding: 32px 16px ;
-    margin: 0 16px;
-    border:  1px solid var(--border);
+    margin: 0 20px 20px;
+    border:  thin solid var(--border);
+    border-radius: 5px 5px 5px 5px;
     border-bottom: none;
+    display: flex;
+    flex-direction: column;
     >h5 {
         font-size: 18px;
         margin-bottom: 28px;

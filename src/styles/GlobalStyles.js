@@ -14,6 +14,7 @@ export default createGlobalStyle `
         --blue1: #1e6dff;
         --blue2: #29698c8;
         --blue3: #3483fa;
+        --blue4: rgba(65, 137, 230, .15);
         --yellow: #fff159;
 
         --border: #dddddd;

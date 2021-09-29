@@ -10,14 +10,17 @@ const iconsCSS = css`
 
 `;
 
+
 export const Container = styled.div`
     padding: 32px 16px;
-    margin: 0 auto;
+    margin: 0 20px 20px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     border: thin solid var(--border);
     border-radius: 5px 5px 5px 5px;
 `;
+
 export const Card = styled.div`
     display : flex ;
     align-items: center;
